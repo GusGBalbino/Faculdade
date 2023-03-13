@@ -30,6 +30,16 @@
         </tr>
         
     </table>
+    <br></br>
 
+<input type="submit" onclick="fnValidarCampos('cpf')" value="Enviar validação"/>
+
+<script>
+    function fnValidarCampos(tipo){
+        if (document.getElementById(nomeid).value == 0){
+            alert("NOME Obrigatório.");
+        }
+    }
+</script>
 </body>
-</html></html>
+</html>
